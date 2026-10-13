@@ -2,8 +2,8 @@ package com.javaintro;
 
 public class Demo {
 	static {
-		int x = 20;
-		int y = 20;
+		int x = 30;
+		int y = 40;
 		int Sum = x + y;
 
 		System.out.println("Static block Executed" + x);
