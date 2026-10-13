@@ -10,6 +10,8 @@ public class Demo1 {
 	}
 
 	public static void main(String[] args) {
+		System.out.println("Mian method Started");
+		System.out.println("Mian method Ended");
 		Demo1 d = new Demo1();
 
 	}
