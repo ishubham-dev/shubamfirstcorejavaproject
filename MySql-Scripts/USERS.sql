@@ -1,4 +1,4 @@
-create table USERS1 (
+create table USERS (
 user_ID int,
 user_NAME varchar(50),
 user_MAIL varchar(50),
@@ -11,3 +11,5 @@ insert into USERS values
 
 insert into USERS values 
 (2,'MSoffice','ms@gmail.com','2829');
+
+select*from USERS;
