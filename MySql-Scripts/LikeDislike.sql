@@ -6,3 +6,11 @@ CREATE TABLE Likes_Dislikes (
     FOREIGN KEY (user_id) REFERENCES USERS(user_id),
     FOREIGN KEY (celebrity_id) REFERENCES Celebrity(celebrity_id)
 );
+
+insert into Likes_Dislikes values
+(1,1,'Like');
+
+insert into Likes_Dislikes values
+(2,2,'dislike');
+
+select *from Likes_Dislikes;
