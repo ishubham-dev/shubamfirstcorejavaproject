@@ -26,11 +26,11 @@ public class Student1 {
 	}
 
 	String princpalname;
-	int princpalid;
+	int principalid;
 
-	void changePrincpal() {
-		System.out.println("PrincpalName: " + princpalname);
-		System.out.println("PrincpalID: " + princpalid);
+	void changePrincipal() {
+		System.out.println("PrincipalName: " + princpalname);
+		System.out.println("PrincipalID: " + principalid);
 
 	}
 
@@ -43,28 +43,21 @@ public class Student1 {
 		s1.coursename = "BTECH";
 		s1.marks = 100;
 
-		Student1 s2 = new Student1();
-		s2.studentid = 102;
-		s2.studentname = "MicroSoft";
-		s2.coursename = "Btech";
-		s2.marks = 10;
+		s1.studentid = 102;
+		s1.studentname = "Microsoft";
+		s1.coursename = "Masters";
+		s1.marks = 100;
 
-		Student1 s3 = new Student1();
-		s3.collegename = "NIT";
-		s3.loc = "Mumbai";
-		s3.collegeid = 10255;
+		s1.collegename = "NIT";
+		s1.loc = "Mumbai";
+		s1.collegeid = 10255;
 
-		Student1 s4 = new Student1();
-		s4.princpalname = "Dr.k.suamyaa";
-		s4.princpalid = 101;
+		s1.princpalname = "Dr.k.suamyaa";
+		s1.principalid = 101;
 
 		s1.displayStudentDetails();
-		
-		s2.displayStudentDetails();
-		
-		s3.displayCollegeDetails();
-		
-		s4.changePrincpal();
+		s1.displayCollegeDetails();
+		s1.changePrincipal();
 
 		System.out.println("Main Method Ended");
 	}
